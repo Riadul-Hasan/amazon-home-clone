@@ -19,11 +19,13 @@
 }
 
 .logo{
-    background-image: url('logo.png');
-
+    background-image: url('Images/amazon.png');
+    aspect-ratio: 3/2;
+    object-fit: cover;
     height: 60px;
-    width: 110px;
+    width: 200px;
     background-size: cover;
+    
 }
 
 
@@ -140,7 +142,7 @@
 
 /* Hero Section */
 .hero{
-    background-image: url("cover.jpg");
+    background-image: url("Images/cover.jpg");
     height: 380px;
     background-size: cover;
     display: flex;
@@ -190,7 +192,7 @@
 
 /* Box image */
 .box-image{
-    background-image: url("bag_picture.jpg");
+    background-image: url("Images/bag_picture.jpg");
     height: 330px;
     background-size:contain;
     background-repeat: no-repeat;
@@ -216,4 +218,86 @@
 
 .box-content p{
     color: #232F3E
+}
+
+.footer-panel{
+    height: 30px;
+    background-color: #37475a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    font-size: 0.8rem;
+}
+
+.footer-panel2{
+    height: 350px;
+    background-color: #232F3E;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer{
+    height: 500px;
+    background-color:  #232F3E;
+}
+
+ul a{
+    display: block;
+    margin-top: 10px;
+    font-size: 0.85rem;
+    color: #dddddd;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul p{
+    font-size: 1.3rem;
+    margin-top: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul{
+    margin-top: 25px;
+}
+
+/* Footer 3 */
+.footer-panel3{
+    background-color: #232F3E ;
+    border-top: 0.5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo1{
+    background-image: url('Images/logo.png');
+
+    height: 60px;
+    width: 80px;
+    background-size: cover;
+}
+
+
+/* Footer 4 */
+
+.footer-panel4{
+    background-color: #131921;
+    color: white;
+   height: 80px;
+   /* display: flex;
+   justify-content: center; */
+}
+
+.option{
+    font-size: 0.8rem;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.copyright{
+    font-size: 0.8rem;
+    text-align: center;
+    padding-top: 5px;
 }
